@@ -1,6 +1,11 @@
 # SpeechPortraitGen
 
-## 环境配置
+
+## 参考项目
+
+:arrow_forward: [GFPGAN](https://github.com/TencentARC/GFPGAN): A practical algorithm for real-world face restoration <br>
+
+## :wrench: 环境配置
 
 ```bash
 sudo apt install gcc g++ gdb cmake zip
