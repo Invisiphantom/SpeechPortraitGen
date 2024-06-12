@@ -1,0 +1,10 @@
+__pycache__
+_torchshow
+infer_out
+gfpgan
+
+deep_3drecon/BFM/*
+!/deep_3drecon/BFM/.gitkeep
+
+/checkpoints/*
+!/checkpoints/.gitkeep
