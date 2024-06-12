@@ -582,7 +582,7 @@ class Trainer:
         if you found num_worker is larger than world_size, remove the old shard_file_name
         """
         exp_name = hparams['exp_name']
-        shared_file_name = f'file:///home/tiger/nfs/pytorch_ddp_sharedfile/{exp_name}'
+        shared_file_name = f'file:///home/ethan/nfs/pytorch_ddp_sharedfile/{exp_name}'
         os.makedirs(os.path.dirname(shared_file_name).replace("file://",""), exist_ok=True)
         dist.init_process_group('nccl', init_method=shared_file_name,
                             world_size=world_size, rank=proc_rank)

@@ -479,7 +479,7 @@ def get_todo_vid_names(vid_names):
 if __name__ == '__main__':
     import argparse, glob, tqdm
     parser = argparse.ArgumentParser()
-    # parser.add_argument("--vid_dir", default='/home/tiger/datasets/raw/CelebV-HQ/video')
+    # parser.add_argument("--vid_dir", default='/home/ethan/datasets/raw/CelebV-HQ/video')
     parser.add_argument("--vid_dir", default='data/raw/videos/May_10s.mp4')
     parser.add_argument("--ds_name", default='nerf') # 'nerf' | 'CelebV-HQ' | 'TH1KH_512' | etc
     parser.add_argument("--seed", default=0, type=int)

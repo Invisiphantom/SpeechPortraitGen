@@ -139,7 +139,7 @@ class WarpBasedTorsoModel(nn.Module):
         self.deform_based_generator = Generator()
 
         self.pretrained_hopenet = Hopenet(torchvision.models.resnet.Bottleneck, [3, 4, 6, 3], num_bins=66).cuda()
-        pretrained_path = "/home/tiger/nfs/myenv/cache/useful_ckpts/hopenet_robust_alpha1.pkl" # https://drive.google.com/open?id=1m25PrSE7g9D2q2XJVMR6IA7RaCvWSzCR
+        pretrained_path = "/home/ethan/nfs/myenv/cache/useful_ckpts/hopenet_robust_alpha1.pkl" # https://drive.google.com/open?id=1m25PrSE7g9D2q2XJVMR6IA7RaCvWSzCR
         self.pretrained_hopenet.load_state_dict(torch.load(pretrained_path, map_location=torch.device("cpu")))
         self.pretrained_hopenet.requires_grad_(False)
 

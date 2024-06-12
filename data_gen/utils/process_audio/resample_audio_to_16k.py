@@ -15,7 +15,7 @@ def extract_wav16k_job(audio_name:str):
 if __name__ == '__main__':
     import argparse, glob, tqdm, random
     parser = argparse.ArgumentParser()
-    parser.add_argument("--aud_dir", default='/home/tiger/datasets/raw/CMLR/audio_raw/')
+    parser.add_argument("--aud_dir", default='/home/ethan/datasets/raw/CMLR/audio_raw/')
     parser.add_argument("--ds_name", default='CMLR')
     parser.add_argument("--num_workers", default=64, type=int)
     parser.add_argument("--process_id", default=0, type=int)

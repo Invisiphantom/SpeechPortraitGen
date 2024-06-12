@@ -126,7 +126,7 @@ def gr_demo(
                             src_image_name = gr.Image(
                                 show_label=False,
                                 type="filepath",
-                                value="data/raw/examples/Macron.png",
+                                value="data/Macron.png",
                             )
                 with gr.Tabs(elem_id="driven_audio"):
                     with gr.TabItem("音频"):
@@ -134,14 +134,14 @@ def gr_demo(
                             drv_audio_name = gr.Audio(
                                 show_label=False,
                                 type="filepath",
-                                value="data/raw/examples/Obama_5s.wav",
+                                value="data/Obama_5s.wav",
                             )
                 with gr.Tabs(elem_id="driven_pose"):
                     with gr.TabItem("姿势视频"):
                         with gr.Column(variant="panel"):
                             drv_pose_name = gr.Video(
                                 show_label=False,
-                                value="data/raw/examples/May_5s.mp4",
+                                value="data/May_5s.mp4",
                             )
                 with gr.Tabs(elem_id="bg_image"):
                     with gr.TabItem("背景图片"):
@@ -149,7 +149,7 @@ def gr_demo(
                             bg_image_name = gr.Image(
                                 show_label=False,
                                 type="filepath",
-                                value="data/raw/examples/bg.png",
+                                value="data/bg_white_house.png",
                             )
 
             with gr.Column(variant="panel"):

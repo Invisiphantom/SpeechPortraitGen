@@ -368,7 +368,7 @@ if __name__ == "__main__":
     import argparse, glob, tqdm
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--img_dir", default="/home/tiger/datasets/raw/FFHQ/images_512")
+    parser.add_argument("--img_dir", default="/home/ethan/datasets/raw/FFHQ/images_512")
     parser.add_argument("--ds_name", default="FFHQ")
     parser.add_argument("--seed", default=0, type=int)
     parser.add_argument("--process_id", default=0, type=int)

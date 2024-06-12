@@ -20,7 +20,7 @@ from . import metric_utils
 def compute_kid(opts, max_real, num_gen, num_subsets, max_subset_size):
     # Direct TorchScript translation of http://download.tensorflow.org/models/image/imagenet/inception-2015-12-05.tgz
     # detector_url = 'https://api.ngc.nvidia.com/v2/models/nvidia/research/stylegan3/versions/1/files/metrics/inception-2015-12-05.pkl'
-    detector_url = 'file:///home/tiger/nfs/myenv/cache/useful_ckpts/inception-2015-12-05.pkl'
+    detector_url = 'file:///home/ethan/nfs/myenv/cache/useful_ckpts/inception-2015-12-05.pkl'
     detector_kwargs = dict(return_features=True) # Return raw features before the softmax layer.
 
     real_features = metric_utils.compute_feature_stats_for_dataset(

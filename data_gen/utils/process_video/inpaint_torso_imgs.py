@@ -151,7 +151,7 @@ def get_todo_vid_names(vid_names):
 if __name__ == '__main__':
     import argparse, glob, tqdm, random
     parser = argparse.ArgumentParser()
-    parser.add_argument("--vid_dir", default='/home/tiger/datasets/raw/CelebV-HQ/video')
+    parser.add_argument("--vid_dir", default='/home/ethan/datasets/raw/CelebV-HQ/video')
     parser.add_argument("--ds_name", default='CelebV-HQ')
     parser.add_argument("--num_workers", default=48, type=int)
     parser.add_argument("--seed", default=0, type=int)
@@ -159,7 +159,7 @@ if __name__ == '__main__':
     parser.add_argument("--total_process", default=1, type=int)
     parser.add_argument("--reset", action='store_true')
     
-    inpaint_torso_job('/home/tiger/datasets/raw/CelebV-HQ/video/dgdEr-mXQT4_8.mp4')
+    inpaint_torso_job('/home/ethan/datasets/raw/CelebV-HQ/video/dgdEr-mXQT4_8.mp4')
     # args = parser.parse_args()
     # vid_dir = args.vid_dir
     # ds_name = args.ds_name

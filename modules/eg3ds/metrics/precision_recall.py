@@ -37,7 +37,7 @@ def compute_distances(row_features, col_features, num_gpus, rank, col_batch_size
 
 def compute_pr(opts, max_real, num_gen, nhood_size, row_batch_size, col_batch_size):
     # detector_url = 'https://api.ngc.nvidia.com/v2/models/nvidia/research/stylegan3/versions/1/files/metrics/vgg16.pkl'
-    detector_url = 'file:///home/tiger/nfs/myenv/cache/useful_ckpts/vgg16.pkl'
+    detector_url = 'file:///home/ethan/nfs/myenv/cache/useful_ckpts/vgg16.pkl'
     detector_kwargs = dict(return_features=True)
 
     real_features = metric_utils.compute_feature_stats_for_dataset(

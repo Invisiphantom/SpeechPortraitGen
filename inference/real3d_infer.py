@@ -553,9 +553,10 @@ class GeneFace2Infer:
             ).clamp(-1, 1)
         imgs = ((imgs.permute(0, 2, 3, 1) + 1) / 2 * 255).int().numpy().astype(np.uint8)
 
+        # torch.cuda.empty_cache()
         if inp["SR_mode"] == "GFPGAN-V1.4":
             sr_img_lst = []
-            for img in tqdm.tqdm(imgs, desc="GFPGAN is SRing video"):
+            for img in tqdm.tqdm(imgs, desc="GFP-GAN is SRing video"):
                 cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
                 _, _, img = self.face_enhancer.enhance(img, has_aligned=False, only_center_face=False, paste_back=True)
                 cv2.cvtColor(img, cv2.COLOR_BGR2RGB)

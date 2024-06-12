@@ -3,7 +3,7 @@ from utils.commons.multiprocess_utils import multiprocess_run_tqdm
 
 from data_gen.utils.path_converter import PathConverter, pc
 
-# mp4_names = glob.glob("/home/tiger/datasets/raw/CelebV-HQ/video/*.mp4")
+# mp4_names = glob.glob("/home/ethan/datasets/raw/CelebV-HQ/video/*.mp4")
 
 def extract_img_job(video_name, raw_img_dir=None):
     if raw_img_dir is not None:
@@ -18,7 +18,7 @@ def extract_img_job(video_name, raw_img_dir=None):
 if __name__ == '__main__':
     import argparse, glob, tqdm, random
     parser = argparse.ArgumentParser()
-    parser.add_argument("--vid_dir", default='/home/tiger/datasets/raw/CelebV-HQ/video')
+    parser.add_argument("--vid_dir", default='/home/ethan/datasets/raw/CelebV-HQ/video')
     parser.add_argument("--ds_name", default='CelebV-HQ')
     parser.add_argument("--num_workers", default=64, type=int)
     parser.add_argument("--process_id", default=0, type=int)

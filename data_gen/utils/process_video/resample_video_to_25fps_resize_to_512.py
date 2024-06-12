@@ -39,7 +39,7 @@ def extract_img_job_crop_ravdess(video_name:str):
 if __name__ == '__main__':
     import argparse, glob, tqdm, random
     parser = argparse.ArgumentParser()
-    parser.add_argument("--vid_dir", default='/home/tiger/datasets/raw/CelebV-HQ/video_raw/')
+    parser.add_argument("--vid_dir", default='/home/ethan/datasets/raw/CelebV-HQ/video_raw/')
     parser.add_argument("--ds_name", default='CelebV-HQ')
     parser.add_argument("--num_workers", default=32, type=int)
     parser.add_argument("--process_id", default=0, type=int)

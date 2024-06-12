@@ -12,7 +12,7 @@
 
 import os
 import sys
-sys.path.append("/home/tiger/projects/GeneFace_private/modules/eg3ds")
+sys.path.append("/home/ethan/projects/GeneFace_private/modules/eg3ds")
 
 import time
 import hashlib
