@@ -1,11 +1,14 @@
 # SpeechPortraitGen
 
+[![LICENSE](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/Invisiphantom/SpeechPortraitGen/main/LICENSE)
 
-## 参考项目
+### :book: 参考项目
 
-:arrow_forward: [GFPGAN](https://github.com/TencentARC/GFPGAN): A practical algorithm for real-world face restoration <br>
+:arrow_forward: [Real3DPortrait](https://github.com/yerfor/Real3DPortrait): One-shot Realistic 3D Talking Portrait Synthesis <br>
+:arrow_forward: [GFP-GAN](https://github.com/TencentARC/GFPGAN): Towards Real-World Blind Face Restoration with Generative Facial Prior <br>
 
-## :wrench: 环境配置
+
+### :wrench: 环境配置
 
 ```bash
 sudo apt install gcc g++ gdb cmake zip
