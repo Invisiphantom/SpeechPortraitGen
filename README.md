@@ -1,6 +1,6 @@
 # SpeechPortraitGen
 
-[![LICENSE](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/Invisiphantom/SpeechPortraitGen/main/LICENSE)
+[![LICENSE](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/Invisiphantom/SpeechPortraitGen/blob/main/LICENSE)
 
 
 ### :book: 参考项目
@@ -13,6 +13,9 @@
 
 
 ### :wrench: 环境配置
+
+- [CUDA Toolkit](https://developer.nvidia.com/cuda-downloads)
+- [MiniConda](https://docs.anaconda.com/free/miniconda/)
 
 ```bash
 sudo apt install -y gcc g++ gdb cmake zip portaudio19-dev libglu1-mesa-dev
