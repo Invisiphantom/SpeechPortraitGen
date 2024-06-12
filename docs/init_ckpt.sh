@@ -1,4 +1,4 @@
-cd ../deep_3drecon/BFM
+cd deep_3drecon/BFM
 gdown -c https://drive.google.com/uc?id=1SPM3IHsyNAaVMwqZZGV6QVaV7I2Hly0v
 gdown -c https://drive.google.com/uc?id=1MSldX9UChKEb3AXLVTPzZQcsbGD4VmGF
 gdown -c https://drive.google.com/uc?id=180ciTvm16peWrcpl4DOekT9eUQ-lJfMU

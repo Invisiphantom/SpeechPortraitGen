@@ -6,7 +6,6 @@ import torch
 import torch.nn.functional as F
 from scipy.io import loadmat
 import os
-# from utils.commons.tensor_utils import convert_like
 
 
 def perspective_projection(focal, center):
